@@ -64,7 +64,7 @@ module.exports = plop => {
           type: "modify",
           path: 'src/routes/Routes.js',
           pattern: patternInsert,
-          templateFile: "./__templates__/common/insertViewRoutes.js.hbs"
+          templateFile: "./__templates__/common/insertViewRoutes.hbs"
         }
       ]
 

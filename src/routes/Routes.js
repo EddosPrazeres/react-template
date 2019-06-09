@@ -4,8 +4,16 @@ import * as views from "../views"
 
 const Routes = props => (
   <Switch>
-    <Route exact path="/" component={views.Home} />
-  // Insert views here
+    <Route 
+      exact path="/" 
+      component={views.Home} 
+    />
+
+    // Insert views here
+
+    
+
+
   </Switch>
 )
 
